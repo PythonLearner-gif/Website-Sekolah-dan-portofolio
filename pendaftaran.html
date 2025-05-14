@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pendaftaran Siswa Baru - SMKN 3 Makassar</title>
+  <link rel="stylesheet" href="stlyle.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>SMK Negeri 3 Makassar</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="pendaftaran.html">Pendaftaran</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="form-section">
+    <div class="container">
+      <h2>Formulir Pendaftaran</h2>
+      <form action="#" method="post">
+        <label for="nama">Nama Lengkap:</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="nisn">NISN:</label>
+        <input type="text" id="nisn" name="nisn" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telepon">Nomor Telepon:</label>
+        <input type="tel" id="telepon" name="telepon" required>
+
+        <label for="alamat">Alamat:</label>
+        <textarea id="alamat" name="alamat" rows="3" required></textarea>
+
+        <label for="jurusan">Pilih Jurusan:</label>
+        <select id="jurusan" name="jurusan">
+            <option value="TKJ">Teknik Komputer dan Jaringan</option>
+            <option value="DPiB">Desain Pemodelan Dan informasi bangunan</option>
+            <option value="TiTL">Teknik intalasi Tenaga Listri</option>
+            <option value="TKR">Teknik Permesinan Otomutif</option>
+            <option value="BKP">Teknik Konstrusi Perumahan</option>
+            <option value="TPL">Teknik Pengelasan</option>
+            <option value="TESHA">Teknik Energi Surya Hidro Dan angin</option>
+        </select>
+
+        <button type="submit">Daftar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 SMK Negeri 3 Makassar. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html
